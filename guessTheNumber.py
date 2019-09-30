@@ -2,9 +2,9 @@
 
 import random
 
-secretNumber = random.randint(1, 20)
+secretNumber = random.randint(1, 100)
 
-print('I am thinking of a number between 1 and 20.')
+print('I am thinking of a number between 1 and 100.')
 
 # Ask the player to guess 6 times
 for guessesTaken in range(1, 7):
